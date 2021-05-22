@@ -58,7 +58,7 @@ namespace RedlabsUpdateUtility
 				configInfo = new RedlabsConfigInfo(new Dictionary<string, string>()
 				{
 					{ "APPLICATION_NAME", "DBOPS" }, // The name of the application
-					{ "DOWNLOAD_URL", "https://drive.google.com/uc?export=download&id=17X-Dw_X4-d4PecoroQjp_a3vAzrnGi6e" }, // The online download URL for the application
+					{ "DOWNLOAD_URL", "https://drive.google.com/uc?export=download&id=1pY7gDHTtjerKSPz6I0xrHlRXiXSveJwW" }, // The online download URL for the application
 					{ "VERSION_URL", "https://drive.google.com/uc?export=download&id=1k-vbFH8agxy1x-TV9gbKG71eeBJAr4vK" }, // The online version URL for the application
 					{ "DOWNLOAD_VERSION_FILE", "true" }, // True if the version URL leads to a download link instead of a direct file
 					{ "FILE_TO_RUN", "Client.exe" }, // The file to run when starting the application
@@ -167,7 +167,7 @@ namespace RedlabsUpdateUtility
 			{
 				if(e.BytesReceived >= e.TotalBytesToReceive && e.TotalBytesToReceive != 0)
 				{
-					TitleBlock.Text = "Extracting...";
+					TitleBlock.Text = "Game ready to start.";
 				}
 				else
 				{
