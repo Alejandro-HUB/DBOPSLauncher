@@ -1,0 +1,34 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <ApplicationIcon>DBOPS.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="button.png" />
+    <None Remove="button1.png" />
+    <None Remove="DBOPS.png" />
+    <None Remove="Goku.jpg" />
+    <None Remove="R17b2a12e082b6e6e34e654178ec1021b.jpg" />
+    <None Remove="R39a747384177afe0758645b594e446fe.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="DotNetProjects.Extended.Wpf.Toolkit" Version="4.6.97" />
+    <PackageReference Include="Extended.Wpf.Toolkit" Version="4.1.0" />
+    <PackageReference Include="System.IO.Compression.ZipFile" Version="4.3.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="button.png" />
+    <Resource Include="button1.png" />
+    <Resource Include="DBOPS.png" />
+    <Resource Include="Goku.jpg" />
+    <Resource Include="R17b2a12e082b6e6e34e654178ec1021b.jpg" />
+    <Resource Include="R39a747384177afe0758645b594e446fe.png" />
+  </ItemGroup>
+
+</Project>
