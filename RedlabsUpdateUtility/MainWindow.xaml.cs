@@ -12,7 +12,7 @@ using System.Windows.Media;
 using Xceed.Wpf.AvalonDock.Layout;
 using MessageBox = System.Windows.MessageBox;
 
-/* Copyright (c) 2020 Rugbug Redfern*/
+
 
 namespace RedlabsUpdateUtility
 {

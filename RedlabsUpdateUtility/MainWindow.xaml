@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:RedlabsUpdateUtility"
         mc:Ignorable="d"
 		ContentRendered="Window_ContentRendered"
-        Title="Redlabs Update Utility" Height="516" Width="891" ResizeMode="CanMinimize" WindowStartupLocation="CenterScreen" Icon="/R39a747384177afe0758645b594e446fe.png">
+        Title="DBOPS Launcher" Height="516" Width="891" ResizeMode="CanMinimize" WindowStartupLocation="CenterScreen" Icon="/R39a747384177afe0758645b594e446fe.png">
     <Window.Background>
         <ImageBrush ImageSource="/Goku.jpg"></ImageBrush>
     </Window.Background>

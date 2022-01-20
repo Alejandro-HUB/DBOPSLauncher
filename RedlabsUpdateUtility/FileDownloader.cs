@@ -16,7 +16,7 @@ namespace RedlabsUpdateUtility
 		fileDownloader.DownloadFileAsync( "https://INSERT_DOWNLOAD_LINK_HERE", @"C:\downloadedFile.txt" );
 	*/
 
-	// SOURCE: https://gist.github.com/yasirkula/d0ec0c07b138748e5feaecbd93b6223c
+	// SOURCE: https://github.com/Alejandro-HUB/DBOPSLauncher
 
 	public class FileDownloader : IDisposable
 	{
