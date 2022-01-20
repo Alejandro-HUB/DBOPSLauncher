@@ -17,6 +17,7 @@ namespace RedlabsUpdateUtility
 	*/
 
 	// SOURCE: https://github.com/Alejandro-HUB/DBOPSLauncher
+	//Hosted in GitHub
 
 	public class FileDownloader : IDisposable
 	{
